@@ -8,6 +8,7 @@ var ingredient6 = "garlic"
 var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"]
 function addElementToBeginningOfArray(array, element) { return [element, ...array]
 }
+<<<<<<< HEAD
 function destructivelyAddElementToBeginningOfArray(array, element){
   array.unshift(element)
   return array
@@ -37,3 +38,6 @@ function destructivelyRemoveElementFromEndOfArray(array) {
 function removeElementFromEndOfArray(array) {
   return array.slice(0, array.length - 1)
 }
+=======
+function de
+>>>>>>> f5a986db7467835d29fe82c9f8cc309ebc92ec02
